@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Servicewiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+<svg display="none">
+<symbol id="data-1" viewBox="0 0 45 45">
+  <g>
+    <path d="M22.5 0C16.2891 0 10.9863 2.19727 6.5918 6.5918C2.19727 10.9863 0 16.2891 0 22.5C0 28.7109 2.19727 34.0137 6.5918 38.4082C10.9863 42.8027 16.2891 45 22.5 45C28.7109 45 34.0137 42.8027 38.4082 38.4082C42.8027 34.0137 45 28.7109 45 22.5C45 16.2891 42.8027 10.9863 38.4082 6.5918C34.0137 2.19727 28.7109 0 22.5 0ZM9.58008 29.0918C10.8105 32.1973 11.4258 35.0098 11.4258 37.5293C9.08203 35.8887 7.22168 33.7354 5.84473 31.0693C4.46777 28.4033 3.7793 25.5469 3.7793 22.5C3.7793 16.4648 6.15234 11.6016 10.8984 7.91016C11.9531 8.73047 12.9199 9.7998 13.7988 11.1182C14.6777 12.4365 15.0879 13.6816 15.0293 14.8535C14.7949 16.6699 13.5938 18.457 11.4258 20.2148C10.3125 21.3867 9.56543 22.7783 9.18457 24.3896C8.80371 26.001 8.93555 27.5684 9.58008 29.0918ZM41.2207 22.5C41.2207 27.6562 39.3896 32.0654 35.7275 35.7275C32.0654 39.3896 27.6562 41.2207 22.5 41.2207C19.9219 41.2207 17.4902 40.7227 15.2051 39.7266C15.498 35.918 14.7363 31.9336 12.9199 27.7734C12.2754 25.7812 12.6562 24.1992 14.0625 23.0273C16.9922 20.0977 18.5449 17.4902 18.7207 15.2051C19.0723 12.041 17.5781 8.84766 14.2383 5.625C16.5234 4.39453 19.2773 3.7793 22.5 3.7793C24.0234 3.7793 25.459 3.95508 26.8066 4.30664L23.0273 8.08594L21.709 9.4043L27.1582 14.8535L40.3418 16.6992C40.9277 18.75 41.2207 20.6836 41.2207 22.5ZM29.0918 11.4258L26.9824 9.4043L30.7617 5.625C33.9844 7.14844 36.5332 9.52148 38.4082 12.7441L29.0918 11.4258ZM23.6426 19.3359L22.1484 21.5332C20.9766 23.4082 20.8301 25.2832 21.709 27.1582L22.5 28.916L23.8184 35.2441C23.9941 36.5918 24.8145 37.4707 26.2793 37.8809C26.5137 37.998 26.8066 38.0566 27.1582 38.0566C28.0371 38.0566 28.8574 37.7344 29.6191 37.0898L31.7285 35.0684L31.9043 34.7168C32.7832 31.4355 33.7793 29.2383 34.8926 28.125C36.4746 27.0117 36.9141 25.0195 36.2109 22.1484C35.8008 20.5664 34.7168 19.4238 32.959 18.7207L28.4766 16.875H28.125C26.0742 16.875 24.5801 17.6953 23.6426 19.3359ZM25.3125 23.6426L26.8066 21.3574C27.041 20.8887 27.4219 20.6543 27.9492 20.6543L31.7285 21.9727C32.1973 22.207 32.4316 22.4414 32.4316 22.6758C32.5488 23.0859 32.6074 23.7891 32.6074 24.7852C31.0254 25.957 29.5898 28.623 28.3008 32.7832L27.334 33.75L26.2793 27.7734L25.1367 25.4883C24.7852 24.9609 24.8438 24.3457 25.3125 23.6426Z"></path>
+  </g>
+</symbol>
+  <symbol id="data-2" viewBox="0 0 45 45">
+    <g>
+      <path d="M0 35.9103H45V41.5353H0V35.9103ZM5.625 24.6603H11.25V33.0978H5.625V24.6603ZM14.0625 13.4103H19.6875V33.0978H14.0625V13.4103ZM22.5 21.8478H28.125V33.0978H22.5V21.8478ZM30.9375 4.97278H36.5625V33.0978H30.9375V4.97278Z"></path>
+    </g>
+  </symbol>
+  <symbol id="data-3" viewBox="0 0 45 45">
+    <g>
+      <path d="M28.125 7.5C32.1032 7.5 35.9185 9.08035 38.7316 11.8934C41.5446 14.7064 43.125 18.5217 43.125 22.5C43.125 26.4782 41.5446 30.2935 38.7316 33.1066C35.9185 35.9196 32.1032 37.5 28.125 37.5C24.1467 37.5 20.3314 35.9196 17.5184 33.1066C14.7053 30.2935 13.125 26.4782 13.125 22.5C13.125 18.5217 14.7053 14.7064 17.5184 11.8934C20.3314 9.08035 24.1467 7.5 28.125 7.5ZM28.125 11.25C25.1413 11.25 22.2798 12.4353 20.17 14.545C18.0603 16.6548 16.875 19.5163 16.875 22.5C16.875 25.4837 18.0603 28.3451 20.17 30.4549C22.2798 32.5647 25.1413 33.75 28.125 33.75C31.1087 33.75 33.9702 32.5647 36.0799 30.4549C38.1897 28.3451 39.375 25.4837 39.375 22.5C39.375 19.5163 38.1897 16.6548 36.0799 14.545C33.9702 12.4353 31.1087 11.25 28.125 11.25ZM26.25 15H29.0625V22.0875L33.4312 26.4562L31.4437 28.4437L26.25 23.25V15ZM3.75 33.75C3.25272 33.75 2.77581 33.5524 2.42417 33.2008C2.07254 32.8492 1.875 32.3723 1.875 31.875C1.875 31.3777 2.07254 30.9008 2.42417 30.5491C2.77581 30.1975 3.25272 30 3.75 30H10.9312C11.5125 31.3312 12.2625 32.5875 13.125 33.75H3.75ZM5.625 24.375C5.12772 24.375 4.6508 24.1774 4.29917 23.8258C3.94754 23.4742 3.75 22.9973 3.75 22.5C3.75 22.0027 3.94754 21.5258 4.29917 21.1742C4.6508 20.8225 5.12772 20.625 5.625 20.625H9.46875L9.375 22.5L9.46875 24.375H5.625ZM7.5 15C7.00272 15 6.5258 14.8024 6.17417 14.4508C5.82254 14.0992 5.625 13.6223 5.625 13.125C5.625 12.6277 5.82254 12.1508 6.17417 11.7992C6.5258 11.4475 7.00272 11.25 7.5 11.25H13.125C12.2625 12.4125 11.5125 13.6687 10.9312 15H7.5Z"></path>
+    </g>
+  </symbol>
+  <symbol id="data-4" viewBox="0 0 28 45">
+    <g>
+      <path d="M20.2024 24.0042C20.4869 23.4099 21.2752 22.8593 21.955 22.7856C22.6348 22.7119 23.2544 22.1176 23.3315 21.468C23.4135 20.823 23.9872 20.0674 24.6068 19.7933C24.9189 19.6415 25.1729 19.3995 25.3326 19.1016C25.4924 18.8038 25.5497 18.4655 25.4963 18.1347C25.3565 17.4943 25.6603 16.6074 26.1617 16.1675C26.4104 15.9304 26.574 15.624 26.629 15.2925C26.684 14.9609 26.6276 14.6213 26.4679 14.3223C26.3025 14.0008 26.2166 13.6474 26.2166 13.2891C26.2166 12.9309 26.3025 12.5775 26.4679 12.256C26.6279 11.9571 26.6846 11.6174 26.6295 11.2857C26.5745 10.9541 26.4107 10.6477 26.1617 10.4108C25.6603 9.96625 25.3589 9.08168 25.4963 8.44359C25.5504 8.11216 25.4934 7.77289 25.3337 7.47422C25.1739 7.17554 24.9195 6.93272 24.6068 6.78041C24.2756 6.61155 23.9887 6.37311 23.7678 6.08304C23.5469 5.79297 23.3978 5.45882 23.3315 5.10571C23.2765 4.77554 23.1139 4.47038 22.8667 4.23377C22.6195 3.99716 22.3004 3.84117 21.955 3.78807C21.5853 3.72599 21.2353 3.58418 20.9316 3.37342C20.6279 3.16266 20.3785 2.88849 20.2024 2.57178C20.0434 2.27303 19.789 2.03033 19.4761 1.87878C19.1633 1.72722 18.8081 1.67465 18.4619 1.72868C18.0903 1.77844 17.7118 1.74662 17.3551 1.63566C16.9984 1.52469 16.6728 1.3375 16.4031 1.08828C15.9379 0.604534 15.07 0.475534 14.4746 0.795731C13.8791 1.11593 12.9028 1.11593 12.3097 0.795731C11.9978 0.640741 11.6422 0.585084 11.2948 0.636886C10.9474 0.688688 10.6264 0.845236 10.3787 1.08368C10.1093 1.33318 9.78373 1.52056 9.42694 1.63155C9.07014 1.74253 8.69154 1.77418 8.32 1.72407C7.97425 1.67092 7.61977 1.72417 7.30778 1.87613C6.99578 2.0281 6.74241 2.27091 6.58429 2.56948C6.29741 3.15919 5.50911 3.70975 4.82929 3.78346C4.48322 3.83659 4.16356 3.99282 3.91593 4.22986C3.6683 4.4669 3.50536 4.77263 3.45036 5.10341C3.38496 5.45651 3.2361 5.7907 3.0151 6.08051C2.79411 6.37033 2.50681 6.60813 2.17509 6.7758C1.86343 6.92888 1.61033 7.1721 1.45189 7.47077C1.29344 7.76943 1.23776 8.10828 1.29277 8.43898C1.42536 9.07707 1.12402 9.96394 0.622593 10.4062C0.121165 10.8485 -0.0186564 11.6778 0.316433 12.2514C0.651522 12.8181 0.651522 13.751 0.316433 14.3177C0.156514 14.617 0.0999984 14.9571 0.155007 15.289C0.210016 15.621 0.373717 15.9277 0.622593 16.1652C1.12643 16.6028 1.42536 17.4897 1.29277 18.1324C1.2377 18.4625 1.29342 18.8007 1.45192 19.0987C1.61042 19.3966 1.86358 19.639 2.17509 19.791C2.79706 20.0651 3.3684 20.8207 3.44795 21.4657C3.52991 22.1153 4.14706 22.7096 4.82688 22.7833C5.5067 22.857 6.295 23.4099 6.58188 24.0019C6.74124 24.2993 6.99491 24.541 7.30663 24.6925C7.61836 24.8439 7.9722 24.8973 8.31759 24.845C8.98777 24.7183 9.91589 25.004 10.3763 25.4854C10.6247 25.7227 10.9452 25.8788 11.2921 25.9314C11.639 25.9839 11.9944 25.9302 12.3073 25.778C12.9004 25.4578 13.8767 25.4578 14.4721 25.778C15.0676 26.0982 15.9354 25.9645 16.4007 25.4854C16.866 25.0017 17.7893 24.7183 18.4595 24.845C18.8056 24.8983 19.1606 24.8457 19.4736 24.6947C19.7866 24.5437 20.0417 24.302 20.2024 24.0042ZM13.3921 21.1155C11.2183 21.1155 9.13352 20.2904 7.59639 18.8215C6.05927 17.3527 5.19572 15.3606 5.19572 13.2834C5.19572 11.2062 6.05927 9.21404 7.59639 7.74523C9.13352 6.27642 11.2183 5.45125 13.3921 5.45125C15.566 5.45125 17.6508 6.27642 19.1879 7.74523C20.725 9.21404 21.5886 11.2062 21.5886 13.2834C21.5886 15.3606 20.725 17.3527 19.1879 18.8215C17.6508 20.2904 15.566 21.1155 13.3921 21.1155ZM3.68902 25.7457L0.692503 41.9836L8.23322 40.9147L14.9374 44.3839L17.9219 28.2105C15.5121 28.8838 12.9713 29.0116 10.5009 28.5838C8.03048 28.156 5.69826 27.1843 3.68902 25.7457ZM22.941 25.8563C22.1881 26.3791 21.3897 26.8393 20.5544 27.2315L18.7512 36.9894L26.8729 32.7785L22.941 25.8563Z"></path>
+    </g>
+  </symbol>
+</svg>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo" href="index.html">Service<span>wiz</span></a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link active" data-scroll="#home" href="index.html">Home</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" data-scroll="#service" href="">Service</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" data-scroll="#pricing" href="">Pricing</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" data-scroll="#about" href="">About</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" data-scroll="#contact" href="">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__right">
+            <div class="header__search">
+              <img src="images/content/search.svg" alt="">
+            </div>
+            <div class="header__burger">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+<!--    /.header-->
+    <main class="page">
+      <div class="page__intro intro">
+        <div class="container">
+          <picture class="intro__img">
+            <source srcset="images/content/bg.png" media="(min-width: 750px)">
+            <img src="images/content/bg-min.png" alt="">
+          </picture>
+        <div class="intro__content">
+          <h5 class="intro__content-subtitle">SERVICE</h5>
+          <h1 class="intro__content-title">We Take Care Of The Future </h1>
+          <h4 class="intro__content-text">Just type what's on your mind.</h4>
+        </div>
+        </div>
+      </div>
+
+      <section class="page__advantages advantages">
+        <div class="container">
+          <div class="advantages__inner">
+            <div class="advantages__column">
+              <div class="advantages__item">
+                <div class="advantages__icon">
+                  <img src="images/content/icon.svg" alt="icon">
+                </div>
+                <h5 class="advantages__title">24/7 Support</h5>
+                <div class="advantages__text">Slate helps you see how many more days you need to work to reach </div>
+              </div>
+            </div>
+
+            <div class="advantages__column">
+              <div class="advantages__item">
+                <div class="advantages__icon">
+                  <img src="images/content/icon.svg" alt="icon">
+                </div>
+                <h5 class="advantages__title">Secure System</h5>
+                <div class="advantages__text">Slate helps you see how many more days you need to work to reach </div>
+              </div>
+            </div>
+
+            <div class="advantages__column">
+              <div class="advantages__item">
+                <div class="advantages__icon">
+                  <img src="images/content/icon.svg" alt="icon">
+                </div>
+                <h5 class="advantages__title">Innovative Solutions</h5>
+                <div class="advantages__text">Slate helps you see how many more days you need to work to reach </div>
+              </div>
+            </div>
+
+            <div class="advantages__column">
+              <div class="advantages__item">
+                <div class="advantages__icon">
+                  <img src="images/content/icon.svg" alt="icon">
+                </div>
+                <h5 class="advantages__title">Marketing</h5>
+                <div class="advantages__text">Slate helps you see how many more days you need to work to reach </div>
+              </div>
+            </div>
+
+            <div class="advantages__column">
+              <div class="advantages__item">
+                <div class="advantages__icon">
+                  <img src="images/content/icon.svg" alt="icon">
+                </div>
+                <h5 class="advantages__title">Research</h5>
+                <div class="advantages__text">Slate helps you see how many more days you need to work to reach </div>
+              </div>
+            </div>
+
+            <div class="advantages__column">
+              <div class="advantages__item">
+                <div class="advantages__icon">
+                  <img src="images/content/icon.svg" alt="icon">
+                </div>
+                <h5 class="advantages__title">Creative Integration</h5>
+                <div class="advantages__text">Slate helps you see how many more days you need to work to reach </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page__data data">
+        <div class="container">
+          <h2 class="data__title">Expert Data Analysts</h2>
+          <div class="data__text">Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</div>
+          <div class="data__inner">
+
+            <div class="data__tabs tabs">
+              <div class="tabs__content active" data-tab="#tab_1">
+                <div class="tabs__icon active">
+                  <svg width="45" height="45">
+                    <use xlink:href="#data-1"></use>
+                  </svg>
+                </div>
+                <div class="tabs__info">
+                  <h5 class="tabs__title">Operated Worldwide</h5>
+                  <div class="tabs__text">We focus on ergonomics </div>
+                </div>
+              </div>
+
+              <div class="tabs__content" data-tab="#tab_2">
+                <div class="tabs__icon">
+                  <svg width="45" height="45">
+                    <use xlink:href="#data-2"></use>
+                  </svg>
+                </div>
+                <div class="tabs__info">
+                  <h5 class="tabs__title">A single source of truth</h5>
+                  <div class="tabs__text">We focus on ergonomics </div>
+                </div>
+              </div>
+
+              <div class="tabs__content" data-tab="#tab_3">
+                <div class="tabs__icon">
+                  <svg width="45" height="45">
+                    <use xlink:href="#data-3"></use>
+                  </svg>
+                </div>
+                <div class="tabs__info">
+                  <h5 class="tabs__title">Work Faster</h5>
+                  <div class="tabs__text">We focus on ergonomics </div>
+                </div>
+              </div>
+
+              <div class="tabs__content" data-tab="#tab_4">
+                <div class="tabs__icon">
+                  <svg width="45" height="45">
+                    <use xlink:href="#data-4"></use>
+                  </svg>
+                </div>
+                <div class="tabs__info">
+                  <h5 class="tabs__title">Clients Satisfaction</h5>
+                  <div class="tabs__text">We focus on ergonomics</div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="data__item" id="tab_1">
+              <div class="data__scheme scheme">
+                <div class="scheme__title">Operated Worldwide</div>
+                <hr>
+
+                <div class="scheme__inner">
+                  <div class="scheme__content">
+                    <div class="scheme__statistics">
+                      <div class="scheme__statistics-text">Groups of 20 students</div>
+                      <div class="scheme__statistics-number"><span>20</span> (32%)</div>
+                    </div>
+
+                    <div class="scheme__statistics">
+                      <div class="scheme__statistics-text">Groups of 10 students</div>
+                      <div class="scheme__statistics-number"><span>20</span> (32%)</div>
+                    </div>
+
+                    <div class="scheme__statistics">
+                      <div class="scheme__statistics-text">Groups of 5 students</div>
+                      <div class="scheme__statistics-number"><span>15</span> (24%)</div>
+                    </div>
+
+                    <div class="scheme__statistics">
+                      <div class="scheme__statistics-text">Individual sessions</div>
+                      <div class="scheme__statistics-number"><span>7</span> (12%)</div>
+                    </div>
+                  </div>
+                  <div class="scheme__circle">
+                    <canvas id="myChart" width="181" height="181"></canvas>
+                    <img class="scheme__icon" src="images/content/data/circle.svg" alt="">
+                  </div>
+
+                </div>
+             </div>
+            </div>
+
+              <div class="data__item" id="tab_2">
+              <div class="data__scheme scheme scheme__line">
+                <div class="scheme__title">A sihgle source of truth</div>
+                <div class="scheme__inner">
+                    <canvas id="chart2" width="680" height="285"></canvas>
+                  </div>
+                </div>
+              </div>
+
+            <div class="data__item" id="tab_3">
+              <div class="data__scheme scheme">
+                <div class="scheme__title">Work Faster</div>
+                <hr>
+                <div class="scheme__inner">
+                  <div class="scheme__position">
+                    <canvas id="chart3" width="242" height="242"></canvas>
+                    <div class="scheme__text">Order Sales</div>
+                  </div>
+                  <ul class="scheme__percentages">
+                    <li class="scheme__percentages-item">A: 43%</li>
+                    <li class="scheme__percentages-item">B: 25%</li>
+                    <li class="scheme__percentages-item">C: 32%</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="data__item" id="tab_4">
+              <div class="data__scheme scheme scheme__bar">
+                <div class="data__inner-bar">
+                  <div class="scheme__title-bar ">Clients Satisfaction</div>
+                  <ul class="scheme__bar-list">
+                    <li class="scheme__bar-li">Applied</li>
+                    <li class="scheme__bar-li">Left</li>
+                  </ul>
+                </div>
+                <hr>
+                <div class="scheme__inner">
+                  <canvas id="chart4" width="655" height="285"></canvas>
+                </div>
+              </div>
+            </div>
+
+
+            </div>
+          </div>
+      </section>
+
+      <section class="page__stories stories">
+        <div class="container">
+          <div class="stories__subtitle">CLIENT STORIES</div>
+          <div class="stories__title">Designing Better Expericences</div>
+          <div class="stories__slider swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide">
+                <div class="slide__img">
+                  <img src="images/content/stories/1.png" alt="">
+                </div>
+                <div>
+                  <h3 class="slide__title">A rethink of how we work</h3>
+                  <div class="slide__text">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.When you add work to your Slate calendar we automatically calculate useful insights about the financial health of your business.</div>
+                  <div class="slide__signature">Jim - Product Designer</div>
+                </div>
+              </div>
+
+              <div class="swiper-slide slide">
+                <div class="slide__img">
+                  <img src="images/content/stories/1.png" alt="">
+                </div>
+                <div>
+                  <h3 class="slide__title">Lorem ipsum</h3>
+                  <div class="slide__text">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.When you add work to your Slate calendar we automatically calculate useful insights about the financial health of your business.</div>
+                  <div class="slide__signature">Jim - Product Designer</div>
+                </div>
+              </div>
+
+              <div class="swiper-slide slide">
+                <div class="slide__img">
+                  <img src="images/content/stories/1.png" alt="">
+                </div>
+                <div>
+                  <h3 class="slide__title">Lorem ipsum</h3>
+                  <div class="slide__text">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.When you add work to your Slate calendar we automatically calculate useful insights about the financial health of your business.</div>
+                  <div class="slide__signature">Jim - Product Designer</div>
+                </div>
+              </div>
+
+              <div class="swiper-slide slide">
+                <div class="slide__img">
+                  <img src="images/content/stories/1.png" alt="">
+                </div>
+                <div>
+                  <h3 class="slide__title">Lorem ipsum</h3>
+                  <div class="slide__text">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.When you add work to your Slate calendar we automatically calculate useful insights about the financial health of your business.</div>
+                  <div class="slide__signature">Jim - Product Designer</div>
+                </div>
+              </div>
+
+            </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="page__difference difference">
+        <picture class="difference__img">
+          <source srcset="images/content/difference/background.png" media="(min-width: 955px)">
+          <img src="images/content/difference/bg-min.png" alt="">
+        </picture>
+        <div class="container">
+          <div class="difference__title">Make a Difference</div>
+            <div class="difference__inner">
+              <div class="difference__item">
+                  <div class="difference__icon">
+                    <img src="images/content/difference/1.svg" alt="">
+                  </div>
+                  <div class="difference__number">15K</div>
+                  <div class="difference__text">Happy Customers</div>
+              </div>
+              <div class="difference__item">
+                <div class="difference__icon">
+                  <img src="images/content/difference/2.svg" alt="">
+                </div>
+                <div class="difference__number">150K</div>
+                <div class="difference__text">Monthly Visitors</div>
+              </div>
+              <div class="difference__item">
+                <div class="difference__icon">
+                  <img src="images/content/difference/3.svg" alt="">
+                </div>
+                <div class="difference__number">15</div>
+                <div class="difference__text">Countries  Worldwide</div>
+              </div>
+              <div class="difference__item">
+                <div class="difference__icon">
+                  <img src="images/content/difference/4.svg" alt="">
+                </div>
+                <div class="difference__number">100+</div>
+                <div class="difference__text">Top Partners</div>
+              </div>
+            </div>
+        </div>
+      </section>
+    </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+
+            <div class="footer__item">
+              <div class="footer__logo">Servicewiz</div>
+              <div class="footer__text">2020 Copyright Figmaland All rights reserved</div>
+            </div>
+
+            <div class="footer__item">
+              <div class="footer__label">Get in Touch</div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__link" href="#">4517 Washington Ave. Manchester, Kentucky 39495</a></li>
+                <li class="footer__list-item"><a class="footer__link" href="tel:2395550108">(239) 555-0108</a></li>
+                <li class="footer__list-item"><a class="footer__link" href="mailto:alma.lawson@example.com">alma.lawson@example.com</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__item">
+              <div class="footer__label">Learn More</div>
+              <nav class="footer__menu">
+                <ul class="footer__list">
+                  <li class="footer__list-item"><a class="footer__link" href="#">About</a></li>
+                  <li class="footer__list-item"><a class="footer__link" href="#">Our Story</a></li>
+                  <li class="footer__list-item"><a class="footer__link" href="#">Projects</a></li>
+                  <li class="footer__list-item"><a class="footer__link" href="#">Terms of Use</a></li>
+                  <li class="footer__list-item"><a class="footer__link" href="#">Contact Us</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="footer__item">
+              <div class="footer__label">Our Newsletter</div>
+              <div class="footer__text">Subscribe to our newsletter to get our news & deals</div>
+              <form class="footer__form">
+                <input class="footer__input" type="text" name="" placeholder="Email Address">
+                <button class="footer__btn" type="submit">Join</button>
+              </form>
+              <div class="footer__socials">
+               <div class="footer__icon">
+                 <a href=""><img src="images/content/socials/1.svg" alt=""></a>
+               </div>
+                <div class="footer__icon">
+                  <a href=""><img src="images/content/socials/2.svg" alt=""></a>
+                </div>
+                <div class="footer__icon">
+                  <a href=""><img src="images/content/socials/3.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </div>
+</body>
+</html>
